@@ -1,4 +1,4 @@
-/* demo16-1.css */ 
+/* 菜单 */ 
 
 a { /* 对所有超链接有效*/
     text-decoration: none;
@@ -35,7 +35,10 @@ a.menu:hover {
     background-color: #336699;
 }
 
-/* 背景音乐播放*/
+/* 指示 */
+.directive {
+    color:rgb(26, 179, 179);
+}
 
 /*作业各部分标题*/
 .work {
@@ -48,100 +51,8 @@ a.menu:hover {
 .way {
 	display: inline-block;
 }       
-/* part1代码 */
-
-.fontstyle1 {
-    font-family:楷体;
-}
-
-.fontstyle2 {
-    font-size:16px;
-}
-
-.fontstyle3 {
-    font-style:italic;
-}
-.fontstyle4 {
-    font-variant: small-caps;
-}
-.fontstyle5 {
-    font-weight:bold;
-}
-.fontstyle6 {
-    font:1.8rem 楷体；
-}
 
 
-/* part2代码 */
-
-.textstyle1 {
-    color:blue;
-}
-
-.textstyle2 {
-    direction:rtl;
-}
-
-.textstyle3 {
-    line-height:10px;
-}
-
-.textstyle4 {
-    letter-spacing:3em;
-}
-
-.textstyle5 {
-    text-align:right;
-}
-
-.textstyle6 {
-    text-decoration:underline;
-}
-
-.textstyle7 {
-    text-indent:100px;
-}
-
-.textstyle8 {
-    text-transform:capitalize;
-}
-
-.textstyle9 {
-    white-space:pe-line;
-}
-
-.textstyle10 {
-    word-break:break-all;
-}
-
-.textstyle11 {
-    word-spacing:30px;
-}
-
-.fontstyle {
-    color:black;
-    font-size:18px;
-}
-
-.bk {
-    background-image:url(../Images/bkbk.jpg);
-    background-repeat:repeat;
-    background-attachment: fixed;
-    background-size:absolute;
-}
- p {
-     background-color:white;
- }
-
-
-
-/* part3代码 */
-h1.style {
-    height:600px;
-    width: 600px;
-    font-size:20px;
-    color:green;
-}
 
 /* backTop代码 */
 .backTop {
@@ -151,11 +62,8 @@ h1.style {
     position:fixed;
 }
 
-/*狂喜*/
-
-.kx {
-    font-size:50px;
+/*  textarea */
+.codetext {
+    height:500px;
+    width:1300px
 }
-
-
-
