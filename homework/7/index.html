@@ -1,0 +1,54 @@
+<!DICTYPE html>
+<html>
+    <head>
+        <title>10.19</title>
+       <meta charset="UTF-8">
+       <link type="text/css" rel="stylesheet" href="./CSS/demo.css">
+       
+       </style>
+       
+    </head>
+    <body>
+        <h1>复合选择器的应用</h1>
+        <p>不同的选择器应用样式。</p>
+        <ul class="parent">
+            <li>交集选择器</li>
+            <li>并集选择器</li>
+            <li>后代选择器
+                <ul>
+                    <li id="myLI">嵌套列表项目1</li>
+                    <li>嵌套列表项目2</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h1 class="parent">欢迎学习CSS，这里为你提供丰富的学习内容。</h1>
+        <ul class="papa">
+            <li>在这里，你可以学到：
+                <ul>
+                    <li>HTML</li>
+                    <li id="now">CSS
+                        <ul>
+                            <li>CSS初级</li>
+                            <li>CSS中级</li>
+                            <li>CSS高级</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>你还可以学到：
+                <ol>
+                    <li>FLASH</li>
+                    <li>DREAMWEAVER</li>
+                    <li>PHOTOSHOP</li>
+                </ol>
+            </li>
+        </ul>
+        <h1 class="title">匹配名称为title的类选择器</h1>
+        <h1 id="title">匹配名称为title的ID选择器</h1>
+        <p class="special">匹配名称为text的类选择器</p>
+        <p class="text title">匹配名称为text的类选择器</p>
+        <p class="title ">匹配名称为text的类选择器</p>
+        <p class="title" id="text" >匹配名称为text的类选择器</p>
+    </body>
+</html>

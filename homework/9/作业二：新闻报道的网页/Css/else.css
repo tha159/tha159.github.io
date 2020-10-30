@@ -1,0 +1,81 @@
+/* 网站顶部的图片*/
+.bk {
+    background-image:url(../Images/topPicture.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:1600px 151px;
+    padding:50px;
+    background-position:top left;
+}
+
+/* 下载附件按钮的图片*/
+.download {
+    background-image: url(../Images/download.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: 550px 500px;
+}
+
+
+/* demo16-1.css */ 
+
+a { /* 对所有超链接有效*/
+    text-decoration: none;
+    padding: 11px;
+}
+
+a:link { color: blue }
+a:visited {color: #666666}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color:brown;
+    text-decoration:underline;
+}
+
+/*用于菜单的超链接*/
+a.menu {
+    font-family: 微软雅黑;
+    font-size: 18px;
+   
+}
+
+a.menu:link,
+a.menu:visited,
+a.menu:active {
+    color: white;
+    background-color: rgb(1,82,147);
+}
+
+a.menu:hover {
+    color: yellow;
+    text-decoration: underline;
+    background-color: #336699;
+}
+
+div#menu {  /*改变menu的位置*/
+    line-height:75px;
+    position:absolute;
+    top:170px;
+    left:300px;
+}
+
+
+
+.menubk {       /*改变menubk的位置*/
+    background-color: rgb(1,82,147);
+    font-size:33px;
+    height:50px;
+}
+
+/* backTop代码 */
+.backTop {
+    display:block;
+    bottom:100px;
+    right:100px;
+    position:fixed;
+}
+
+

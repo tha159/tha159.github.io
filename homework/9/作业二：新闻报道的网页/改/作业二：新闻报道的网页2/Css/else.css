@@ -1,0 +1,150 @@
+body {
+	background-image: url(http://www.mof.gov.cn/images/czb_bgbig.jpg);
+	background-repeat: no-repeat;
+	background-color: #f0f0f0;
+	width: 1899px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: 100%;
+}
+
+/* 网站顶部的图片
+.bk {
+	background-image: url(../Images/topPicture.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 1600px 151px;
+	padding: 50px;
+	background-position: top left;
+} */
+
+
+/* demo16-1.css */
+#point {
+	border: 1px solid #55557f;
+}
+
+a {
+	/* 对所有超链接有效*/
+	text-decoration: none;
+	padding: 11px;
+}
+
+a:link {
+	color: blue
+}
+
+a:visited {
+	color: #666666
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a:active {
+	color: brown;
+	text-decoration: underline;
+}
+
+/*用于菜单的超链接*/
+a.menu {
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+
+a.menu:link,
+a.menu:visited,
+a.menu:active {
+	color: white;
+	background-color: rgb(1, 82, 147);
+}
+
+a.menu:hover {
+	color: yellow;
+	text-decoration: underline;
+	background-color: #336699;
+}
+
+
+
+#menua {
+	width: 900px;
+	margin: 0 auto;
+	/* 分散对齐 */
+	text-align-last: justify;
+	text-align: justify;
+}
+
+#menua a:hover {
+	text-decoration: none;
+	color: #fff0f0;
+}
+
+#topmenu {
+	width: 1000px;
+	margin: 0 auto;
+	height: 120px;
+
+}
+
+#topimg {
+	padding-top: 20px;
+}
+
+#serch {
+	float: right;
+	margin-top: 45px;
+}
+
+#serch input {
+	display: block;
+	float: left;
+	border: 1px solid gainsboro;
+	height: 30px;
+	line-height: 30px;
+	width: 268px;
+	font-family: "Microsoft YaHei";
+	text-indent: 7px;
+	margin-right: -11px;
+	margin-top: -1px;
+}
+
+#te {
+	font-size: 14px;
+	color: #195482;
+	padding: 0px;
+}
+
+#te a {
+	text-align: center;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+#te a:hover {
+	color: #195482;
+}
+
+.menubk {
+	/*改变menubk的位置*/
+	background-color: rgb(1, 82, 147);
+	font-size: 30px;
+	height: 50px;
+	
+}
+
+/* backTop代码 */
+.backTop {
+	display: block;
+	bottom: 100px;
+	right: 100px;
+	position: fixed;
+}
+
+.s {
+	font-size: 25px;
+	color: #677a7f;
+	font-weight: lighter;
+}

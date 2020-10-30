@@ -1,0 +1,77 @@
+/* 修改元素为内联块状元素 */
+.way {
+	display: inline-block;
+}
+/* part1代码 */
+.colorway1 {
+    color:green;
+}
+
+.colorway2 {
+    color:rgb(104,33,122);
+}
+
+.colorway3 {
+    color:rgba(104,33,122,0.5);
+}
+
+.colorway4 {
+    color: #FF0000;
+}
+                                                                                                                             
+.colorway5 {
+    color:hsl(240,100%,50%);
+}
+
+.colorway6 {
+    color:hsla(240,100%,50%,0.5);
+}
+
+/* part2代码 */
+
+.fontstyle {
+    color:black;
+    font-size:12px;
+}
+
+.bk {
+    background-image:url(../Images/bk2hb75.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+ p {
+     background-color:white;
+ }
+.jueduijuli {
+    font-size:16px;
+}
+
+.xiangduijuli {
+    font-size:2em;
+}
+
+/*作业各部分标题*/
+.work {
+    color:rgb(255, 0, 0);
+    font: 3em 楷体,黑体,微软雅黑 bold;
+    line-height:0.0000005;
+}
+/* part3代码 */
+h1.style {
+    height:600px;
+    width: 600px;
+    font-size:20px;
+    color:green;
+}
+
+/* backTop代码 */
+.backTop {
+    display:block;
+    bottom:100px;
+    right:100px;
+    position:fixed;
+}
+
+
+

@@ -5,7 +5,7 @@
 }
 
 .bk {
-    background-image:url(../Images/sleeping.jpg);
+    background-image:url(../Images/bk2hb75.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -25,7 +25,6 @@
     padding-left:150px;
     padding-top:150px;
     padding-bottom:150px;
-    padding-right:200px;
     margin:20px 50px 20px 50px;
 }
 

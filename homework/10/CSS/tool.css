@@ -1,0 +1,69 @@
+/* 菜单 */ 
+
+a { /* 对所有超链接有效*/
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link { color: blue }
+a:visited {color: #666666}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color:brown;
+    text-decoration:underline;
+}
+
+/*用于菜单的超链接*/
+a.menu {
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+
+a.menu:link,
+a.menu:visited,
+a.menu:active {
+    color: white;
+    background-color: #90000a;
+}
+
+a.menu:hover {
+    color: yellow;
+    text-decoration: underline;
+    background-color: #336699;
+}
+
+/* 指示 */
+.directive {
+    color:rgb(26, 179, 179);
+}
+
+/*作业各部分标题*/
+.work {
+    color:rgb(255, 0, 0);
+    font: 3em 楷体,黑体,微软雅黑 bold;
+    line-height:0.0000005;
+}
+
+/* 修改元素为内联块状元素 */
+.way {
+	display: inline-block;
+}       
+
+
+
+/* backTop代码 */
+.backTop {
+    display:block;
+    bottom:100px;
+    right:100px;
+    position:fixed;
+}
+
+/*  textarea */
+.codetext {
+    height:500px;
+    width:1300px
+}

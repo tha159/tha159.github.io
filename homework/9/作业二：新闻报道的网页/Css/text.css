@@ -1,0 +1,23 @@
+.title {
+    font-size:33px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.time {
+    font-weight:lighter;
+}
+
+#time {
+    line-height:75px;
+    position:absolute;
+    top:320px;
+    left:1100px;
+}
+
+.article {
+    line-height:26px;
+    font-size:18px;
+    word-break:break-all;
+    font-weight:lighter;
+}

@@ -1,0 +1,38 @@
+h1,p {
+    color:#333333;
+    font-family:"微软雅黑";
+}
+ul.parent {
+    border:2px #888 dashed;
+}
+ul.parent>li {
+    padding: 5px 15 px;
+    background: #eee;
+}
+#myLI {
+    font-family: 楷体;
+    font-style: italic;
+    background: #fff;
+}
+
+.title {
+    font-size:34px;
+    color:blue;
+}
+.special {
+     Font-family: 微软雅黑;
+    color:rgb(255, 0, 0);
+}
+#text {
+    color:aqua;
+}
+
+h1.parent {
+    font-family: 楷体;
+    color: burlywood
+}
+
+#now {
+    font-family: 楷体;
+    font-style: italic;
+}

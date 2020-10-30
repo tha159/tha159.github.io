@@ -1,0 +1,165 @@
+
+.fontstyle {
+    color:black;
+    font-size:18px;
+}
+
+.bk {
+    background-image:url(../Images/bk2hb75.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+ p {
+     background-color:white;
+ }
+
+
+
+/* part1*/
+.div01{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    margin:0;
+    background-color: burlywood;
+}
+
+.div02{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    margin:0;
+    background-color: burlywood;
+    clear:both;
+}
+/*浮动前*/
+.div11{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: burlywood;
+}
+
+.div12{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+}
+.div13{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: darkcyan;
+}
+
+/*浮动后*/
+.div21{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: burlywood;
+    float:left;
+}
+.div22{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    float:left;
+}
+.div23{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: darkcyan;
+    float:right;
+}
+/* part2 */
+.div126{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    position:relative;
+    left:50px;
+    top:50px;
+}
+
+.div127{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    position:fixed;
+    left:50px;
+    top:50px;
+}
+
+.div128{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    position:absolute;
+    left:50px;
+    top:50px;
+}
+
+.empty {
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:5000px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+}
