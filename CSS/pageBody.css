@@ -1,0 +1,352 @@
+a{
+    text-decoration: none;
+}
+
+/*body大内*/
+#pageBody{   
+    position: absolute;
+    top:15%;
+    left:0%;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+/*body小内*/
+#pageBoddy{
+    position: absolute;
+    top:2.5%;
+    /**/
+    left:0;
+    right:0;
+    margin:0 auto;
+    width:77%;
+    height:500%;
+
+}
+
+/*头像栏*/
+#touXiang{
+    display: block;
+    position: relative;  
+    top:0%;
+    left:0%;
+    width:20%;
+    height:7%;
+    background-image: url(../Images/leftTouxiang.png);
+    background-size:100% 100%;
+}
+
+
+#touXiangName {
+    display:block;
+    position:relative;
+    top:48%;
+    left:40%;
+    font-family: STXingkai;
+    font-size: 25px;
+    width:30%;
+}
+
+#date{
+    display:block;
+    position: absolute;;
+    top:55%;
+    left:10%;
+    width:80%;
+    height:30%;
+}
+
+#date>ul>li{
+    float:left;
+    list-style-type: none;
+    padding:4% 9%;
+}
+
+
+#txIcon{
+    display:block;
+    position: absolute;
+    top:85%;
+    left:2%;
+    width:100%;
+    height:15%;
+}
+
+#qqIcon {
+    height:80%;
+    width:15%;
+    background-image: url(../Images/QQ.png);
+    background-size:100% 100%;
+}
+
+#steamIcon {
+    position: absolute;
+    left:20%;
+    top:0%;
+    height:80%;
+    width:15%;
+    background-image: url(../Images/steam.png);
+    background-size:100% 100%;
+}
+
+#biliIcon {
+    position: absolute;
+    left:40%;
+    top:0%;
+    height:80%;
+    width:15%;
+    background-image: url(../Images/bili.png);
+    background-size:100% 100%;
+}
+#wechatIcon {
+    position: absolute;
+    left:60%;
+    top:0%;
+    height:80%;
+    width:15%;
+    background-image: url(../Images/微信.png);
+    background-size:100% 100%;
+}
+#fbIcon {
+    position: absolute;
+    left:80%;
+    top:0%;
+    height:80%;
+    width:15%;
+    background-image: url(../Images/fb.png);
+    background-size:100% 100%;
+}
+/*导航*/
+#daohang {
+    position: absolute;  
+    top:0%;
+    left:20.5%;
+    margin:0;
+    height:1.5%;
+    width:55%;
+    background-image: url(../Images/DaohangOne.png);
+    background-size:100% 100%;
+
+
+}
+
+#daohang>.left {
+    position:relative;
+    left:0%;
+    top:5%;
+    border-right: 1px solid #e1e8ed;
+    padding: 8px 10px;
+    margin: 0 10px 0 0 ;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    width:5%;
+    height: 60%;
+}
+
+#daohang>.right {
+    position:absolute;
+    left:12%;
+    top:5%;
+    
+}
+
+.right>ul{
+    list-style-type:none;
+    font-size: 15px;
+}
+
+.right>ul li {
+    float:left;
+    padding:5px 30px 5px 5px;
+}
+/*公告栏*/
+#announcement {
+    position: absolute;  
+    top:0%;
+    left:76%;
+    margin:0;
+    height:2%;
+    width:20%;
+    background-image: url(../Images/announcement.png);
+    background-size:100% 100%;
+
+
+}
+
+#announcement>.top {
+    position:relative;
+    left:5%;
+    top:5%;
+    border-bottom: 1px solid #e1e8ed;
+    padding: 8px 10px;
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    width:80%;
+}
+
+/*更多功能栏*/
+#moreFunction {
+    position: absolute;  
+    top:2.1%;
+    left:76%;
+    margin:0;
+    height:4%;
+    width:20%;
+    background-image: url(../Images/moreFunction.png);
+    background-size:100% 100%;
+}
+
+#moreFunction>.top {
+    position:relative;
+    left:5%;
+    top:5%;
+    border-bottom: 1px solid #e1e8ed;
+    padding: 8px 10px;
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    width:80%;
+}
+#moreFunction>.content {
+    position:absolute;
+    width:85%;
+    top:25%;
+    left:8%;
+    height:70%;
+
+}
+
+#moreFunction>.content>ul{
+    list-style-type: none;
+}
+
+#moreFunction>.content>ul>li{
+    float: left;
+    width:100px;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+/*主要内容*/
+#content{
+    position: absolute; 
+    top:1.5%;
+    left:20.5%;
+    width:55%;
+    height:200%;
+    
+}
+
+.bili {
+    height:4%;
+    width:100%;
+    border-radius: 1%;
+    
+}
+
+.contentTitle {
+    position: relative;
+    top:40%;
+    left:40%;
+    width:50%;
+    font-family: STXingkai;
+    text-shadow:0 0 10px red;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 40px;
+    color:white;
+
+}
+
+#toSelf {
+    height:100%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    background-image: url(../Images/toSelf.jpg);
+    background-size:100% 100%;
+}
+
+#toWeb {
+    height:100%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    background-image: url(../Images/toWeb.jpg);
+    background-size:100% 100%;
+}
+#toImg {
+    height:100%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    background-image: url(../Images/toImg4.png);
+    background-size:100% 100%;
+}
+#toWork {
+    height:100%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    background-image: url(../Images/toWork.png);
+    background-size:100% 100%;
+}
+#toNote {
+    height:100%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    background-image: url(../Images/toNote.jpg);
+    background-size:100% 100%;
+}
+
+#toLink {
+    height:100%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    background-image: url(../Images/toLink.png);
+    background-size:100% 100%;
+}
+
+.sidebar {
+    position: fixed ;
+    right:10.5%;
+    top:32%;
+    width:50px;
+    /*height:400px;*/
+    background-color:#fff;
+    border:1px solid #969696;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.sidebar ul li{
+    height:30px;
+    font-size:14px;
+    text-align: center;
+    line-height:30px;
+    cursor:pointer;
+}
+
+.sidebar ul li:hover{
+    background-color:#00a1d6;
+    color:#fff;
+}
+
+#toTop{
+    display: block;
+    position:fixed;
+    right:7%;
+    bottom: 100px;
+    transform: translateY(0);
+    width: 62px;
+    height: 85px;
+    margin-left: 602px;
+    background-image: url(../Images/toTop.png);
+    background-position: -40px -44px;
+}
+

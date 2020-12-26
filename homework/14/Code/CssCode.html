@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS代码</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="../CSS/tool.css">
+        <link type="text/css" rel="stylesheet" href="../CSS/else.css">
+        <link rel="SHORTCUT ICON" href="../Images/huaji.jpg">
+    </head>
+    <body class="fontstyle bk" >
+        <!--顶部菜单-->
+        <div id="menu">
+            <a class="menu" href="../index.html" target="_self" >返回主页</a>
+            <a class="menu" href="../Code/htmlCode.html" target="_blank">html代码</a>
+            <a class="menu" href="CssCode.html">CSS代码</a>
+            <a class="menu" href="#part1" >tool.css</a>
+            <a class="menu" href="#part2">else.css</a>
+        </div>
+        <br><br>
+        <!--背景音乐-->
+        <audio src="../Musics/Terere.mp3" style="position:fixed;right:25px; top:25px" loop="true" controls="controls"  preload="auto"  >
+            当前浏览器不支持audio
+        </audio>
+
+        <!--返回顶部-->
+        <div class="backTop">
+            <a href="#">
+                <img  src="../Images/backTop.png" alt="返回顶部" title="返回顶部" height="100px">
+            </a>
+        </div>
+
+        <!--css代码-->
+        <a title="这是作业部分1" name="part1" ><p class="work way" >tool.css</p></a><hr>
+        
+        <textarea class="codetext" disabled="disabled" >
+            /* 菜单 */ 
+
+            a { /* 对所有超链接有效*/
+                text-decoration: none;
+                padding: 20px;
+            }
+            
+            a:link { color: blue }
+            a:visited {color: #666666}
+            a:hover {
+                color: red;
+                text-decoration: underline;
+            }
+            a:active {
+                color:brown;
+                text-decoration:underline;
+            }
+            
+            /*用于菜单的超链接*/
+            
+            .menu {
+                position:relative;
+                left:10px;
+                top:30px;
+            
+            }
+            
+            a.menu {
+                font-family: 微软雅黑;
+                font-size: 20px;
+            }
+            
+            a.menu:link,
+            a.menu:visited,
+            a.menu:active {
+                color: white;
+                background-color: #4d96eb;
+            }
+            
+            a.menu:hover {
+                color: yellow;
+                text-decoration: underline;
+                background-color: #336699;
+            }
+            /* leftList*/
+            
+            a.leftList {
+                font-family: 微软雅黑;
+                font-size: 10px;
+                padding:5px;
+                display:block;
+            }
+            
+            a.leftList:link,
+            a.leftList:visited,
+            a.leftList:active {
+                color: rgb(19, 15, 15);
+                background-color: white;
+            }
+            
+            a.leftList:hover {
+                color: yellow;
+                text-decoration: underline;
+                background-color: #939699;
+            }
+            
+            /* 指示 */
+            .directive {
+                color:rgb(26, 179, 179);
+            }
+            
+            /*作业各部分标题*/
+            .work {
+                color:rgb(255, 0, 0);
+                font: 3em 楷体,黑体,微软雅黑 bold;
+                line-height:0.0000005;
+            }
+            
+            /* 修改元素为内联块状元素 */
+            .way {
+                display: inline-block;
+            }       
+            
+            
+            
+            /* backTop代码 */
+            .backTop {
+                display:block;
+                bottom:100px;
+                right:100px;
+                position:fixed;
+            }
+            
+            /*  textarea */
+            .codetext {
+                height:500px;
+                width:1300px
+            }
+            
+        </textarea><br>
+
+        <a title="这是作业部分2" name="part2"><p class="work way">else.css</p></a><hr>
+        <textarea class="codetext" disabled="disabled" >
+
+            
+.fontstyle {
+    color:black;
+    font-size:18px;
+}
+
+.bk {
+    background-image:url(../Images/bk2hb75.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+ p {
+     background-color:white;
+ }
+
+
+
+/* part1*/
+.div01{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    margin:0;
+    background-color: burlywood;
+}
+
+.div02{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    margin:0;
+    background-color: burlywood;
+    clear:both;
+}
+/*浮动前*/
+.div11{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: burlywood;
+}
+
+.div12{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+}
+.div13{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: darkcyan;
+}
+
+/*浮动后*/
+.div21{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: burlywood;
+    float:left;
+}
+.div22{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    float:left;
+}
+.div23{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: darkcyan;
+    float:right;
+}
+/* part2 */
+.div126{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    position:relative;
+    left:50px;
+    top:50px;
+}
+
+.div127{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    position:fixed;
+    left:50px;
+    top:50px;
+}
+
+.div128{
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+    position:absolute;
+    left:50px;
+    top:50px;
+}
+
+.empty {
+    border-style:solid;
+    border-color:rgb(148, 110, 235);
+    border-width:4px;    
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:5000px;
+    padding-right:200px;
+    margin:20px 50px 20px 50px;
+    background-color: coral;
+}
+        </textarea>
+
+
+        
+        
+        
+
+
+    </body>
+</html>

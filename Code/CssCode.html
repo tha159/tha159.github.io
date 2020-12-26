@@ -34,75 +34,84 @@
         <a title="这是作业部分1" name="part1" ><p class="work way" >tool.css</p></a><hr>
         
         <textarea class="codetext" disabled="disabled" >
-/* 菜单 */ 
 
-a { /* 对所有超链接有效*/
-    text-decoration: none;
-    padding: 10px;
-}
-
-a:link { color: blue }
-a:visited {color: #666666}
-a:hover {
-    color: red;
-    text-decoration: underline;
-}
-a:active {
-    color:brown;
-    text-decoration:underline;
-}
-
-/*用于菜单的超链接*/
-a.menu {
-    font-family: 微软雅黑;
-    font-size: 16px;
-}
-
-a.menu:link,
-a.menu:visited,
-a.menu:active {
-    color: white;
-    background-color: #90000a;
-}
-
-a.menu:hover {
-    color: yellow;
-    text-decoration: underline;
-    background-color: #336699;
-}
-
-/* 指示 */
-.directive {
-    color:rgb(26, 179, 179);
-}
-
-/*作业各部分标题*/
-.work {
-    color:rgb(255, 0, 0);
-    font: 3em 楷体,黑体,微软雅黑 bold;
-    line-height:0.0000005;
-}
-
-/* 修改元素为内联块状元素 */
-.way {
-	display: inline-block;
-}       
-
-
-
-/* backTop代码 */
-.backTop {
-    display:block;
-    bottom:100px;
-    right:100px;
-    position:fixed;
-}
-
-/*  textarea */
-.codetext {
-    height:500px;
-    width:1500px
-}
+            .fontstyle {
+                color:black;
+                font-size:18px;
+            }
+            
+            .bk {
+                background-image:url(../Images/bk2hb75.jpg);
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-size:cover;
+            }
+             p {
+                 background-color:white;
+             }
+            
+            
+            
+            /* part1*/
+            .midmenu {
+                border-style:none;
+                border-width: 1px;
+                position:fixed;
+                left:120px;
+            }
+            
+            a.demo {
+                font-family: 微软雅黑;
+                font-weight:lighter;
+                font-size: 18px;
+            }
+            
+            a.demo:link {
+                color:blue;
+            }
+            a.demo:visited {
+                color:black;
+            }
+            a.demo:hover {
+                color:rgb(255,68,0);
+                text-decoration: underline;
+            
+            }
+            a.demo:active {
+                color: red;
+            }
+            
+            .baiduContent {
+                position:fixed;
+                top:150px;
+                
+            }
+            
+            .abaiduContent {
+                color:blue;
+                font-size:25px;
+                font-weight:normal;
+            }
+            
+            a.abaiduContent:link {
+                color:blue;
+                text-decoration:underline;
+            }
+            a.abaiduContent:visited {
+                color:rgb(0, 0, 0);
+            }
+            a.abaiduContent:hover {
+                color:rgb(17, 0, 255);
+                text-decoration: underline;
+            
+            }
+            a.abaiduContent:active {
+                color: red;
+            }
+            
+            
+            
+            
 
         </textarea><br>
 

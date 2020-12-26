@@ -1,0 +1,185 @@
+li {
+    list-style-image:url(../Images/huaji.jpg);
+    list-style-position:inside;
+}
+
+table {
+    border:1px solid blue;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    caption-side:left;
+}
+
+
+/*顶部bannner*/
+#pageTop {
+    display:inline;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:1860px;
+    height:155px;
+    border-width:1px;
+    border-color:blue;
+}
+
+.topBanner {
+    background-image: url(../Images/top.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+
+/*底部bannner*/
+#pageBottom {
+    display:inline;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:1860px;
+    height:155px;
+    border-width:1px;
+    border-color:blue;
+}
+
+.bottomBanner {
+    background-image: url(../Images/bottom.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* 菜单 */ 
+a {
+    width:100px;
+    padding:5px;
+    text-align:center;
+    background:#eee url(../Images/huaji.jpg) no-repeat 85px center;
+    display:block;
+    border-bottom:2px solid black;
+    text-decoration:none;
+    color:black;
+}
+
+a:hover {
+    backgroune:#ccc no-repeat 85px center;
+    color:red;
+}
+
+
+/* 指示 */
+.directive {
+    color:rgb(26, 179, 179);
+}
+
+/*作业各部分标题*/
+.work {
+    color:rgb(255, 0, 0);
+    font: 3em 楷体,黑体,微软雅黑 bold;
+    line-height:0.0000005;
+}
+
+/* 修改元素为内联块状元素 */
+.way {
+	display: inline-block;
+}       
+
+
+
+/* backTop代码 */
+.backTop {
+    display:block;
+    bottom:100px;
+    right:100px;
+    position:fixed;
+}
+
+/*  textarea */
+.codetext {
+    height:500px;
+    width:1300px
+}
+
+
+/*顶部bannner*/
+#paper {
+    display:inline;
+    position:fixed;
+    top:200px;
+    left:500px;
+    width:1860px;
+    height:350px;
+    border-width:1px;
+    border-color:blue;
+    background-image: url(../Images/paper1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#tabbb {
+    display:inline;
+    position:fixed;
+    top:200px;
+    left:800px;
+    width:750px;
+    height:155px;
+    margin: 0px auto;
+
+}
+
+#menu,#menu ul{
+    padding:0px;
+    margin:0px;
+
+}
+
+#menu>li {
+    float:left;
+    width:150px;
+}
+
+
+#menu li {
+    list-style:none;
+}
+
+
+#menu ul{
+    margin-right:1px;
+    display:none;
+    position:absolute;
+    width:149px;
+}
+
+#menu li a {
+    text-decoration:none;
+    font-family:微软雅黑， arial;
+}
+
+#menu>li>a {
+    background-color:#ed8;
+    padding:8px 20px;
+    display:block;
+    text-align:center;
+    font-size:16px;
+    margin-right:1px;
+    border-bottom:5px solid #630;
+}
+
+#menu>li>a:hover {
+    background-color: #9cf;
+    border-bottom:5px solid #f60;
+
+}
+
+#menu>li:hover ul {
+    display:block;
+}
+
+#menu li ul li a {
+    font-size:14px;
+    padding:5px 0 5px 20px;
+    display:block;
+    color:#FFF;
+    background:#47a url(../Images/huaji.jpg) no-repeat 10px  10px;
+}
+

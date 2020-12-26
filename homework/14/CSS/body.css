@@ -1,0 +1,154 @@
+li {
+    list-style-image:url(../Images/huaji.jpg);
+    list-style-position:inside;
+}
+
+table {
+    border:1px solid blue;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    caption-side:left;
+}
+
+
+/*顶部bannner*/
+#pageTop {
+    display:inline;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:1860px;
+    height:155px;
+    border-width:1px;
+    border-color:blue;
+}
+
+.topBanner {
+    background-image: url(../Images/top.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+
+/*底部bannner*/
+#pageBottom {
+    display:inline;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:1860px;
+    height:155px;
+    border-width:1px;
+    border-color:blue;
+}
+
+.bottomBanner {
+    background-image: url(../Images/bottom.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* 菜单 */ 
+
+a { /* 对所有超链接有效*/
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link { color: rgb(250, 250, 250) }
+a:visited {color: #666666}
+a:hover {
+    color: rgb(253, 252, 252);
+    text-decoration: underline;
+}
+a:active {
+    color:brown;
+    text-decoration:underline;
+}
+
+/*用于菜单的超链接*/
+#menu {
+    font-family: 微软雅黑;
+    font-size: 16px;
+    display:block;
+    position:fixed;
+    top:130px;
+    left:480px;
+    border-width:1px;
+    border-color:blue;
+    font-weight:lighter;
+
+}
+
+a.menu:link,
+a.menu:visited,
+a.menu:active {
+    color: rgb(26, 18, 18);
+    background-color: #ffffff;
+}
+
+a.menu:hover {
+    color: yellow;
+    text-decoration: underline;
+    background-color: #336699;
+}
+
+/* 指示 */
+.directive {
+    color:rgb(26, 179, 179);
+}
+
+/*作业各部分标题*/
+.work {
+    color:rgb(255, 0, 0);
+    font: 3em 楷体,黑体,微软雅黑 bold;
+    line-height:0.0000005;
+}
+
+/* 修改元素为内联块状元素 */
+.way {
+	display: inline-block;
+}       
+
+
+
+/* backTop代码 */
+.backTop {
+    display:block;
+    bottom:100px;
+    right:100px;
+    position:fixed;
+}
+
+/*  textarea */
+.codetext {
+    height:500px;
+    width:1300px
+}
+
+
+/*顶部bannner*/
+#paper {
+    display:inline;
+    position:fixed;
+    top:200px;
+    left:500px;
+    width:1860px;
+    height:350px;
+    border-width:1px;
+    border-color:blue;
+    background-image: url(../Images/paper1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#tabbb {
+    display:inline;
+    position:fixed;
+    top:580px;
+    left:800px;
+    width:1860px;
+    height:155px;
+    border-width:1px;
+    border-color:blue;
+}

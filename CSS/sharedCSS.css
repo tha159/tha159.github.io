@@ -1,0 +1,125 @@
+/*顶部图片*/
+.topImg {
+    display:inline;
+    position:fixed;
+    top:0px;
+    left:900px;
+}
+
+/* 菜单 */ 
+
+h>a { /* 对所有超链接有效*/
+    text-decoration: none;
+    padding: 20px;
+}
+
+h>a:link { color: blue }
+h>a:visited {color: #666666}
+h>a:hover {
+    color: red;
+    text-decoration: underline;
+}
+h>a:active {
+    color:brown;
+    text-decoration:underline;
+}
+
+/*用于菜单的超链接*/
+
+.menu {
+    position:relative;
+    left:10px;
+    top:30px;
+
+}
+
+a.menu {
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
+
+a.menu:link,
+a.menu:visited,
+a.menu:active {
+    color: white;
+    background-color: #4d96eb;
+}
+
+a.menu:hover {
+    color: yellow;
+    text-decoration: underline;
+    background-color: #336699;
+}
+/* leftList*/
+
+a.leftList {
+    font-family: 微软雅黑;
+    font-size: 10px;
+    padding:5px;
+    display:block;
+}
+
+a.leftList:link,
+a.leftList:visited,
+a.leftList:active {
+    color: rgb(19, 15, 15);
+    background-color: white;
+}
+
+a.leftList:hover {
+    color: yellow;
+    text-decoration: underline;
+    background-color: #939699;
+}
+
+/* 指示 */
+.directive {
+    color:rgb(26, 179, 179);
+}
+
+/*作业各部分标题*/
+.work {
+    color:rgb(255, 0, 0);
+    font: 3em 楷体,黑体,微软雅黑 bold;
+    line-height:0.0000005;
+}
+
+/* 修改元素为内联块状元素 */
+.way {
+	display: inline-block;
+}       
+
+
+
+/* 返回顶部backTop代码 */
+.backTop {
+    display:block;
+    bottom:100px;
+    right:100px;
+    position:fixed;
+}
+
+
+/*返回顶部sapceTOtop代码*/
+.to-top {
+    display: none;
+    bottom: 100px;
+    transform: translateY(0);
+    width: 62px;
+    height: 85px;
+    margin-left: 602px;
+    background-image: url(../Images/shared/space-to-top.png);
+    background-position: -40px -44px;
+}
+/*空白代码，用于展示回顶部按钮*/
+.empty {
+    padding-top:5000px;
+    border-style:dashed;  
+    border-color:rgb(95,99,104)
+}
+/*  textarea */
+.codetext {
+    height:500px;
+    width:1300px
+}
+

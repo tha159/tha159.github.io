@@ -1,0 +1,18 @@
+#conntent {
+    height:10%;
+    margin:10px 0 10px 0;
+    border-radius: 1%;
+    border: solid 1px white;
+    background-color: rgb(198,235,201);
+}
+
+
+#conntent>.content{
+    position:absolute;
+    left:5%;
+    width:80%;
+}
+
+h1,h2,h3 {
+    font-weight: normal;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math</title>
+        <meta charset="UTF-8">
+        <link rel="SHORTCUT ICON" href="../../Images/huaji.jpg">
+        <link type="text/css" rel="stylesheet" href="../../CSS/sharedCSS.css">
+        <script>
+
+            var num1,num2,ans,ans1,ans2;
+            function restart(){
+                num1=parseInt(Math.random()*50);
+                num2=parseInt(Math.random()*50);
+                alert(num1+"+"+num2+"=?");
+            }
+
+            function sub(){
+                ans1=parseInt(document.getElementById("sel1").value);
+                ans2=parseInt(document.getElementById("sel2").value);
+                ans=ans1*10+ans2;
+                alert((num1+num2)+"="+ans+"？");
+                if((num1+num2)==ans)
+                {
+                    alert("恭喜你，答对啦!");
+                }else{
+                    alert("oh,loser，啧啧啧");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form1" style="display: inline">
+            <input type="button" value="重新生成题目" onclick="restart()">
+            <select id="sel1">
+                <option value=0>0</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+                <option value=6>6</option>
+                <option value=7>7</option>
+                <option value=8>8</option>
+                <option value=9>9</option>
+            </select>
+        </form>
+        <form name="form2" style="display: inline">
+            <select id="sel2">
+                <option value=0>0</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+                <option value=6>6</option>
+                <option value=7>7</option>
+                <option value=8>8</option>
+                <option value=9>9</option>
+            </select>
+            
+            <input type="button" value="提交答案" onclick="sub()">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS对话框</title>
+        <meta charset="UTF-8">
+        <link rel="SHORTCUT ICON" href="../../Images/huaji.jpg">
+        <link type="text/css" rel="stylesheet" href="../../CSS/sharedCSS.css">
+        <script>
+            function whenPress(){
+                alert("这是第一个JS\nHello World!")
+            }
+
+            function inputAge(){
+                while(1){
+                    var age=prompt("请输入您的年龄：","");
+                    if(age==null)
+                    {
+                        break;
+                    }
+                    age=parseInt(age);
+                    if(isNaN(age))
+                    {
+                        alert("请输入数字！");
+                        continue;
+                    }else if(age<1||age>200){
+                        alert("请输入合理的年龄");
+
+                    }else if(age<18){
+                        alert("对不起，您还未成年，暂不能访问额外内容！");
+                        break;
+                    }else{
+                        alert("成人专区欢迎您！")
+                        break;
+                    }
+                    
+                    
+                    
+                }
+            }
+
+            function enterAdult()
+            {
+                if(confirm("请先充值为会员方可进入~"))
+                {
+                    alert("检测到您还未充值，请充值后再来");
+                }else{
+                    alert("穷人还想进来玩啊？呵呵");
+                    return false;
+                }
+                alert("正在转到充值页面...");
+            }
+            
+            window.onbeforeunload=function() {
+                if(window.event){
+                    window.event.returnValue="小哥哥确定不进来玩一会吗？";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="FirstForm">
+            <input type="button" value="你敢按？！！" onclick="whenPress()">
+            <input type="button" value="点此输入年龄" onclick="inputAge()">
+            <input type="button" value="点此进入成人专区" onclick="enterAdult()">
+            <input type="button" value="关闭窗口" onclick="window.close()">
+            
+        </form>
+    </body>
+</html>

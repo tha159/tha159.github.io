@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js的循环与条件语句</title>
+        <meta charset="UTF-8">
+        <link rel="SHORTCUT ICON" href="../../Images/huaji.jpg">
+        <link type="text/css" rel="stylesheet" href="../../CSS/sharedCSS.css">
+        <script>
+            /*
+            function subToGuess()
+            {
+                var rightAge=parseInt(document.getElementsByName("rightAgeText").item(0).value);
+                var guessAge=parseInt(document.getElementsByName("guessAgeText").item(0).value);
+                if(guessAge>rightAge)
+                {
+                    alert("大了大了！\n您一共猜测的次数为"+guessTime);
+                    guessTime++;
+                }else if(guessAge<rightAge)
+                {
+                    alert("小了小了！\n您一共猜测的次数为"+guessTime);
+                    guessTime++;
+                }else {
+                    alert("恭喜您猜到了正确答案！\n您一共猜测的次数为"+guessTime);
+                }
+            }
+
+            function setGuess()
+            {
+                var guessTime=0;
+            }
+            */
+            function randomNum(minNum,maxNum)
+            { 
+                switch(arguments.length){ 
+                case 1: 
+                    return parseInt(Math.random()*minNum+1,10); 
+                    break; 
+                case 2: 
+                     return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+                    break; 
+                default: 
+                return 0; 
+                break; 
+                } 
+            }
+
+            
+            
+            function startGame()
+            {   
+                var guessTime=0;
+                var realAge=randomNum(1,999);
+                /*var realAge=prompt("请输入正确年龄：");
+                realAge=parseInt(realAge);*/
+                while(1)
+                {
+                    var guessAge=prompt("请输入猜测的年龄：");
+                    if(guessAge==null)
+                    {
+                        break;
+                    }
+                    guessAge=parseInt(guessAge);
+                    if(guessAge>realAge)
+                    {
+                        guessTime++;
+                        alert("大了大了！\n您一共猜测的次数为"+guessTime);
+                        
+                    }else if(guessAge<realAge)
+                    {
+                        guessTime++;
+                        alert("小了小了！\n您一共猜测的次数为"+guessTime);
+                        
+                    }else {
+                        guessTime++;
+                        alert("恭喜您猜到了正确答案！\n您一共猜测的次数为"+guessTime);
+                        break;
+                    }
+                }
+            }
+            
+            function startCase()
+            {
+                var num1=prompt("请输入选项：\n1、这是1\n2、这是2\n3、这是3");
+                
+                num1=parseInt(num1);
+                switch(num1)
+                {
+                    case 1:
+                        alert("这是1的结果");
+                        break;
+                    case 2:
+                        alert("这是2的结果");
+                        break;
+                    case 3:
+                        alert("这是3的结果");
+                        break;
+                    default:
+                        alert("没有这个选项");
+                        
+                }
+            }
+
+            var students=new Array("sf","sfs");
+            for( n in students)
+            {
+                document.write(students[n]+" ");
+            }
+        </script>
+        
+    </head>
+    <body>
+        <!--
+        <p>请输入正确的年龄值：</p>
+        <form name="textForm1">
+            <input type="text" name="rightAgeText">  
+            <input type="button" value="提交" onclick="setGuess()"> 
+        </form>
+        <p>请输入猜测的年龄值：</p>
+        <form name="textForm2">
+            <input type="text" name="guessAgeText">
+            <input type="button" value="提交" onclick="subToGuess()">
+        </form>
+        -->
+        <form name="usePrompt">
+            <input type="button" value="开始猜数游戏" onclick="startGame()">
+            <input type="button" value="switch演示" onclick="startCase()">
+        </form>
+        
+    </body>
+</html>

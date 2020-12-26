@@ -1,0 +1,52 @@
+/*背景图片*/
+#all {
+    height:1000px;
+    margin:0px;
+}
+
+
+
+
+/*顶部bannner*/
+#pageTop {
+    display:inline;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:15%;
+    background-image: url(../Images/sn.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#pageTop ul li {
+    float: left;
+    padding:0 20px;
+    margin:0px;
+    list-style:none;
+    
+}
+
+ul{
+    padding:0px;
+    margin:0px;
+}
+
+li>a {
+    margin:0;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+#bannerRight{
+    position:absolute;
+    right:0;
+    top:0;
+
+}
+
+#bannerRight>ul>li {
+    float:right;
+}
+
